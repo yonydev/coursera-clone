@@ -1,0 +1,16 @@
+h1 {
+  color: red
+}
+
+.hola {
+  color: blue
+}
+
+.adios {
+  color :salmon;
+}
+
+#title {
+  color: indigo;
+  font-size: 30px;
+}
