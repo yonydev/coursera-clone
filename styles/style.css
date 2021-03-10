@@ -1,16 +1,54 @@
-h1 {
-  color: red
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.hola {
-  color: blue
+/* Utils */
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
-.adios {
-  color :salmon;
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ 
+
+.hero .hero-title {
+  width: 500px;
 }
 
-#title {
-  color: indigo;
-  font-size: 30px;
+.title {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 84px;
 }
+
+.subtitle {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.button {
+  background-color: #0056D2;
+  padding: 24px;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Source Sans Pro',
+  sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  width: 240px;
+}
+
+
+
+/* .hero-title {
+  width: 500px;
+  margin-right: 180px;
+  background-color: red;
+} */
